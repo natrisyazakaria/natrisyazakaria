@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY RESUME : ABOUT ME</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* ===== HEADER ===== */
+header{
+    background-color: #ffd6e7; /* soft pink */
+    color:#333;
+    padding:25px;
+    text-align:center;
+    font-size:27px;
+    letter-spacing:2px;
+    font-weight:bold;
+}
+
+/* ===== SIDEBAR MENU ===== */
+nav{
+    width:180px;
+    height:100vh;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(4px);
+    float:left;
+    padding:20px 10px;
+    box-shadow: 2px 0 6px rgba(0,0,0,0.2);
+    border-radius: 0 10px 10px 0;
+}
+
+/* menu item */
+nav p{
+    font-size:16px;
+    background:white;
+    padding:10px;
+    border-radius:12px;
+    margin:12px 0;
+    box-shadow:0 0 8px rgba(0,0,0,0.2);
+    cursor:pointer;
+    transition:0.3s;
+}
+nav p:hover{
+    background:#ffdedf;
+}
+
+/* ===== MAIN SECTION ===== */
+section{
+    margin-left:200px;
+    padding:40px;
+    background-image: url('https://i.pinimg.com/1200x/02/75/61/0275611f60d8b4fb7f468b00c0ab2470.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color:white;
+    position: relative;
+}
+
+/* Larger semi-transparent box */
+.textbox{
+    background: rgba(0,0,0,0.6);
+    padding:35px;
+    max-width:620px; /* bigger */
+    border-radius:14px;
+    backdrop-filter: blur(3px);
+    font-size:17px;
+    line-height:1.6;
+}
+
+/* Wider + centered profile image */
+.profile{
+    width:300px;      /* wider */
+    height:300px;     /* wider */
+    border-radius:50%;
+    border:6px black;
+    position: absolute;
+    right:25%;        /* move toward center */
+    transform: translateX(50%);
+    top:150px;
+    object-fit:cover;
+}
+
+/* ===== FOOTER ===== */
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:10px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>NAT'S RESUME</header>
+
+<!-- Sidebar Menu -->
+<nav>
+    
+    <a href="ABOUT ME.html"><p>
+👤 About Me</p></a>
+    <a href="education(baru).html"><p>📚 Education</p></a>
+    <p>🛠 Skills</p>
+    <p>👨‍👩‍👧 Family</p>
+    <p>📱 Media</p>
+    <p>🎵 Song</p>
+</nav>
+
+<!-- Main Content -->
+<section>
+    <div class="textbox">
+        <h1>About Me</h1>
+        <p>
+        Hi! My name is <b>NATRISYA BINTI ZAKARIA</b>.  
+        I am a very happy and friendly person. I also like to try new things.
+        </p>
+
+        <p>
+        I love spending time with my family and friends, whether it's going out for café hunting,
+        yapping, or just hanging out. These are the moments that make me feel happy and grateful.
+        </p>
+
+        <p>
+        In the future, I hope to build a stable career and explore different paths.
+        I'm someone who is easygoing and friendly, and I enjoy taking photos
+        and travelling to new places.
+        </p>
+    </div>
+
+    <!-- Profile Pic -->
+    <img src="pfp.jpg" class="profile">
+</section>
+
+<footer>
+    copyright © NATRISYA BINTI ZAKARIA
+</footer>
+
+</body>
+</html>
