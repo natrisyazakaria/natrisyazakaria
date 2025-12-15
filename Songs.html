@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MY RESUME : SONGS</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#ffe6f2; /* soft pink */
+}
+
+/* ===== HEADER ===== */
+header{
+    background:#ffd6e7;
+    padding:25px;
+    text-align:center;
+    font-size:28px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container{
+    max-width:900px;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* ===== SECTION TITLE ===== */
+.section-title{
+    font-size:28px;
+    color:#ff4081;
+    margin-bottom:20px;
+    text-align:center;
+    font-family: Georgia, serif;
+}
+
+/* ===== YOUTUBE ===== */
+.youtube-box{
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.youtube-box iframe{
+    width:100%;
+    height:400px;
+    border-radius:15px;
+}
+
+/* ===== AUDIO ===== */
+.audio-list{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:25px;
+}
+
+.audio-card{
+    background:#fff5fb;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+.audio-card h4{
+    margin-bottom:10px;
+    color:#444;
+}
+
+audio{
+    width:100%;
+}
+
+/* ===== FOOTER ===== */
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:12px;
+    font-size:14px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    🎵 MY FAVORITE SONGS 🎵
+</header>
+
+<div class="container">
+
+    <!-- ===== YOUTUBE SECTION ===== -->
+    <div class="section-title">YouTube Playlist</div>
+
+    <div class="youtube-box">
+        <!-- Tukar link YouTube ikut video awak -->
+        <iframe 
+            src="lagu 1.mp4" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- ===== AUDIO SECTION ===== -->
+    <div class="section-title">My Favorite Songs</div>
+
+    <div class="audio-list">
+
+        <div class="audio-card">
+            <h4>🎶 lowkey - lucidrari ft. Heil Nuan</h4>
+            <audio controls>
+                <source src="lagu 2.mp4" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+
+        <div class="audio-card">
+            <h4>🎶 Sal Priadi - Mencintaimu </h4>
+            <audio controls>
+                <source src="lagu 3.mp4" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+
+        <div class="audio-card">
+            <h4>🎶 Rizky Febian - Mantra Cinta</h4>
+            <audio controls>
+                <source src="lagu 4.mp4" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+
+        <div class="audio-card">
+            <h4>🎶 P Ramlee Saloma - ALPHA</h4>
+            <audio controls>
+                <source src="lagu 5.mp4" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    copyright © NATRISYA BINTI ZAKARIA
+</footer>
+
+</body>
+</html>

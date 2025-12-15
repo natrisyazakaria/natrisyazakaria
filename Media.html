@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Media</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#ffe6f2; /* soft pink */
+}
+
+/* ===== HEADER ===== */
+header{
+    background:#ffd6e7;
+    text-align:center;
+    padding:25px;
+    font-size:28px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+/* ===== TABLE CONTAINER ===== */
+.media-container{
+    max-width:1200px;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* ===== TITLE ===== */
+.media-title{
+    text-align:center;
+    font-size:40px;
+    color:#ff4081;
+    margin-bottom:30px;
+}
+
+/* ===== TABLE ===== */
+table{
+    width:100%;
+    border-collapse:collapse;
+    text-align:center;
+}
+
+th{
+    background:#ff9ec7;
+    color:white;
+    font-size:22px;
+    padding:15px;
+}
+
+td{
+    padding:20px;
+    border:1px solid #ddd;
+}
+
+/* ===== IMAGES ===== */
+.media-img{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    transition:0.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.media-img:hover{
+    transform:scale(1.1);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    📱 MY MEDIA
+</header>
+
+<div class="media-container">
+
+    <h2 class="media-title">My Memories</h2>
+
+    <table>
+        <tr>
+            <th>FAMILY</th>
+            <th>FRIENDS</th>
+            <th>FOOD</th>
+            <th>CAT</th>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="fam_1.jpg" class="media-img"><br><br>
+                <img src="fam_2.jpg" class="media-img">
+            </td>
+
+            <td>
+                <img src="kawan_1.jpg" class="media-img"><br><br>
+                <img src="kawan_2.jpg" class="media-img">
+            </td>
+
+            <td>
+                <img src="food_1.jpg" class="media-img"><br><br>
+                <img src="food_2.jpg" class="media-img">
+            </td>
+
+            <td>
+                <img src="kabo_1.jpg" class="media-img"><br><br>
+                <img src="kabo_2.jpg" class="media-img">
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
